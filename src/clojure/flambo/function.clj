@@ -24,7 +24,26 @@
            [org.apache.spark.sql.api.java
             UDF1
             UDF2
-            UDF3]))
+            UDF3
+            UDF4
+            UDF5
+            UDF6
+            UDF7
+            UDF8
+            UDF9
+            UDF10
+            UDF11
+            UDF12
+            UDF13
+            UDF14
+            UDF15
+            UDF16
+            UDF17
+            UDF18
+            UDF19
+            UDF20
+            UDF21
+            UDF22]))
 
 (defn- serfn? [f]
   (= (type f) :serializable.fn/serializable-fn))
@@ -107,3 +126,23 @@
 (gen-function UDF1 udf)
 (gen-function UDF2 udf2)
 (gen-function UDF3 udf3)
+(gen-function UDF4 udf4)
+(gen-function UDF5 udf5)
+(gen-function UDF6 udf6)
+(gen-function UDF7 udf7)
+(gen-function UDF8 udf8)
+(gen-function UDF9 udf9)
+(gen-function UDF10 udf10)
+(gen-function UDF11 udf11)
+(gen-function UDF12 udf12)
+(gen-function UDF13 udf13)
+(gen-function UDF14 udf14)
+(gen-function UDF15 udf15)
+(gen-function UDF16 udf16)
+(gen-function UDF17 udf17)
+(gen-function UDF18 udf18)
+(gen-function UDF19 udf19)
+(gen-function UDF20 udf20)
+(gen-function UDF21 udf21)
+(gen-function UDF22 udf22)
+
