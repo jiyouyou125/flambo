@@ -13,7 +13,7 @@
                   :exclusions [com.twitter/chill-java]]
                  [com.twitter/carbonite "1.5.0"
                   :exclusions [com.twitter/chill-java]]
-                 [com.twitter/chill_2.11 "0.8.0"
+                 [com.twitter/chill_2.11 "0.8.4"
                   :exclusions [org.scala-lang/scala-library]]]
   :profiles {:dev
              {:dependencies [[midje "1.6.3"]
@@ -30,7 +30,7 @@
              {:dependencies
               [[org.apache.spark/spark-core_2.11 "2.3.1"]
                [org.apache.spark/spark-streaming_2.11 "2.3.1"]
-               [org.apache.spark/spark-streaming-kafka-0-10_2.11 "2.3.1"]
+               [org.apache.spark/spark-streaming-kafka-0-8_2.11 "2.3.1" :exclusions [net.jpountz.lz4/lz4]]
                [org.apache.spark/spark-sql_2.11 "2.3.1"]
                [org.apache.spark/spark-hive_2.11 "2.3.1"]]}
              :clojure-1.6
