@@ -31,3 +31,7 @@
 (defn get-or-create
   [sb]
   (.getOrCreate sb))
+
+(defn enable-hive-support
+  [sb]
+  (.enableHiveSupport sb))
