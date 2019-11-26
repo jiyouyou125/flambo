@@ -1,6 +1,5 @@
 (ns flambo.accumulator
-  (:import [org.apache.spark Accumulator]
-           [scala.Option])
+  (:import [org.apache.spark Accumulator])
   (:refer-clojure :exclude [name]))
 
 (defn accumulator

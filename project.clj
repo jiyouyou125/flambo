@@ -16,9 +16,9 @@
                  [com.twitter/chill_2.11 "0.8.4"
                   :exclusions [org.scala-lang/scala-library]]]
   :profiles {:dev
-             {:dependencies [[midje "1.6.3"]
+             {:dependencies [[midje "1.9.9"]
                              [criterium "0.4.3"]]
-              :plugins [[lein-midje "3.1.3"]
+              :plugins [[lein-midje "3.2.1"]
                         [michaelblume/lein-marginalia "0.9.0"]
                         ;; [codox "0.8.9"]
                         [funcool/codeina "0.3.0"
@@ -37,6 +37,8 @@
              {:dependencies [[org.clojure/clojure "1.6.0"]]}
              :clojure-1.7
              {:dependencies [[org.clojure/clojure "1.7.0"]]}
+             :clojure-1.10.1
+             {:dependencies [[org.clojure/clojure "1.10.1"]]}
              :uberjar
              {:aot :all}
              :example
