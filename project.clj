@@ -7,17 +7,17 @@
                  :archive "https://groups.google.com/d/forum/flambo-user"
                  :post "flambo-user@googlegroups.com"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/tools.logging "0.3.1"]
-                 [com.google.guava/guava "18.0"]
+                 [org.clojure/tools.logging "0.5.0"]
+                 [com.google.guava/guava "23.0"]
                  [yieldbot/serializable-fn "0.1.2"
                   :exclusions [com.twitter/chill-java]]
                  [com.twitter/carbonite "1.5.0"
                   :exclusions [com.twitter/chill-java]]
-                 [com.twitter/chill_2.11 "0.8.4"
+                 [com.twitter/chill_2.11 "0.9.4"
                   :exclusions [org.scala-lang/scala-library]]]
   :profiles {:dev
              {:dependencies [[midje "1.9.9"]
-                             [criterium "0.4.3"]]
+                             [criterium "0.4.5"]]
               :plugins [[lein-midje "3.2.1"]
                         [michaelblume/lein-marginalia "0.9.0"]
                         ;; [codox "0.8.9"]
