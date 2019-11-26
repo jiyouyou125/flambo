@@ -10,3 +10,6 @@ pom.xml.asc
 /doc
 metastore_db
 derby.log
+.idea/
+.cpcache/
+flambo.iml
