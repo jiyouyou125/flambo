@@ -69,7 +69,7 @@
   (symbol (format fmt sym-name)))
 
 (defn check-not-nil! [x message]
-  (when (nil? x) (throw (ex-info message))))
+  (when (nil? x) (throw (ex-info message {}))))
 
 (defmacro gen-function
   [clazz wrapper-name]
