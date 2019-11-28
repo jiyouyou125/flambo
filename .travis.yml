@@ -3,7 +3,3 @@ lein: lein
 jdk:
   - openjdk8
 script: lein clean; lein midje
-branches:
-  only:
-    - develop
-    - udf
